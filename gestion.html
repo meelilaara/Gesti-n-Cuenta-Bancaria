@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+
+    <title>Cuenta Bancara</title>
+</head>
+<body>
+    <div>
+    <form>
+        <p><input type="text" name ="muestraMensaje" id="mensaje"> </p><br>
+        <h1>Gestión Cuenta Bancaria</h1>
+        <p><input type="radio" name="cuenta" value="ingreso" checked> Ingreso</p>
+        <p><input type="radio" name="cuenta" value="retiro"> Retiro</p>
+        <br>
+
+    </form>
+    <p>Cantidad <input type="number" id="cantidad"> €</p>
+    <button onclick="actualizarSaldo()" id="actualizaSaldo">Actualizar Saldo</button>
+   
+    <script src="java.js"></script>
+    </div>
+</body>
+</html>

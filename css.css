@@ -1,0 +1,32 @@
+body{
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+div{
+    width: 500px;
+    height: 500px;
+    background-color: cornsilk;
+    margin-top: 20px;
+
+
+}
+#mensaje{
+    width: 100%;
+    height: 100% 30px;
+    background-color: cornsilk;
+    font-size: 1em;
+
+}
+#cantidad{
+    width: 80px;
+    font-size: 1em;
+
+}
+button{
+    margin:10px;
+    font-size: 0.85em;
+    border-radius:10px;
+
+}
